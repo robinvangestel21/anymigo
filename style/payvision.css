@@ -1,0 +1,242 @@
+:root {
+  --payvision-dark-blue: #3237be;
+  --payvision-turquoise: #c8ffe1;
+  --payvision-dark-green: #007364;
+  --payvision-orange: #ff7d6e;
+  --payvision-brown: #212121;
+  --payvision-yellow: #fec781;
+}
+/*---------------------------------------------------------------------*/
+/* HEADER PAYVISION */
+
+.header-projects-payvision #header-bg-desktop path,
+.header-projects-payvision #header-bg-mobile path {
+  fill: var(--payvision-dark-blue) !important;
+}
+
+.header-projects-payvision .header-main h1 {
+  max-width: 636px;
+}
+
+.header-projects-payvision .header-main h3,
+.header-projects-payvision .header-main h4 {
+  color: #c8ffe1;
+}
+
+/*---------------------------------------------------------------------*/
+/* PAYVISION BLOCK 1 */
+
+.payvision .block_1_divider {
+  color: var(--payvision-dark-blue);
+}
+
+/*---------------------------------------------------------------------*/
+/* PAYVISION BLOCK 2 */
+
+.project_block_2_payvision {
+  width: 100vw;
+  height: 650px;
+  background-color: var(--payvision-turquoise);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-align: center;
+  padding: 112.5px 0 0 0;
+}
+
+.project_block_2_payvision h1 {
+  font-size: 2.8125rem;
+  line-height: 100%;
+  color: var(--payvision-dark-green);
+  max-width: 498px;
+  margin: 0 0 15px 0;
+}
+
+.project_block_2_payvision p {
+  font-size: 1.125rem;
+  line-height: 170%;
+  color: var(--payvision-dark-green);
+  max-width: 609px;
+  font-weight: 300;
+}
+
+/*---------------------------------------------------------------------*/
+/* PAYVISION BLOCK 2.5 */
+
+.project_block_2_5_payvision {
+  position: relative;
+  top: -300px;
+  overflow: hidden;
+  width: 100vw;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.project_block_2_5_payvision img {
+  height: 395px;
+  -webkit-transform: translateX(7px);
+  transform: translateX(7px);
+}
+
+.project_block_2_5_payvision video {
+  position: absolute;
+  top: 0;
+  width: 500px;
+  -webkit-transform: translateY(-35px);
+  transform: translateY(-35px);
+}
+
+/*---------------------------------------------------------------------*/
+/* PAYVISION BLOCK 3 */
+
+.project_block_3_payvision {
+  width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-align: center;
+  margin: -300px 0 0 0;
+  padding: 100px 0 0 0;
+}
+
+.project_block_3_payvision h1 {
+  font-size: 2.8125rem;
+  line-height: 100%;
+  color: var(--payvision-dark-blue);
+  max-width: 675px;
+  margin: 0 0 15px 0;
+}
+
+.project_block_3_payvision p {
+  font-size: 1.125rem;
+  line-height: 170%;
+  color: var(--payvision-dark-blue);
+  max-width: 609px;
+  font-weight: 300;
+}
+
+.project_block_3_payvision video,
+.project_block_3_payvision img {
+  margin: 60px 0 112.5px 0;
+  height: 375px;
+}
+
+/*---------------------------------------------------------------------*/
+/* PAYVISION BLOCK 4 */
+
+.project_block_4_payvision {
+  background-color: var(--color-light-gray);
+}
+
+.project_block_4_payvision .mobile-image {
+  display: none;
+}
+/*---------------------------------------------------------------------*/
+/* PAYVISION BLOCK 5 */
+
+.project_block_5_payvision {
+  color: var(--color-black);
+  color: var(--payvision-yellow);
+}
+.project_block_5_payvision .column_block_left_column {
+  background-color: var(--payvision-orange);
+}
+.project_block_5_payvision .column_block_right_column {
+  background-color: var(--payvision-brown);
+}
+
+.project_block_5_payvision .block_5_1 img {
+  width: 585.75px;
+  margin: 0 88.5px 0 0;
+}
+
+.project_block_5_payvision #brown-arrow {
+  height: 437.25px;
+  position: absolute;
+  top: 50%;
+  right: calc(50% - 87px);
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+@media only screen and (max-width: 742.5px) {
+  /*---------------------------------------------------------------------*/
+  /* PAYVISION BLOCK 2 */
+
+  .project_block_2_payvision {
+    height: auto;
+    padding: 50px 36px 200px 36px;
+  }
+  .project_block_2_payvision h1 {
+    font-size: 2.5rem;
+  }
+  .project_block_2_payvision p {
+    font-size: 1rem;
+  }
+
+  /*---------------------------------------------------------------------*/
+  /* PAYVISION BLOCK 2.5  */
+
+  .project_block_2_5_payvision {
+    top: -150px;
+  }
+  .project_block_2_5_payvision img {
+    height: 200px;
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+  .project_block_2_5_payvision video {
+    top: 20px;
+    width: 260px;
+    -webkit-transform: translate(-4px, -38px);
+    transform: translate(-4px, -38px);
+  }
+
+  /*---------------------------------------------------------------------*/
+  /* PAYVISION BLOCK 3 */
+
+  .project_block_3_payvision {
+    overflow: hidden;
+    padding: 200px 36px 50px 36px;
+  }
+  .project_block_3_payvision h1 {
+    font-size: 2.5rem;
+  }
+  .project_block_3_payvision p {
+    font-size: 1rem;
+  }
+  .project_block_3_payvision video {
+    margin: 100px 0 0 0;
+    height: 210px;
+  }
+
+  .project_block_5_payvision #brown-arrow {
+    display: none;
+  }
+}

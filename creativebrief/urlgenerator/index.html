@@ -1,0 +1,35 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+    <title>Anymigo (Creative Brief) URL generator</title>
+</head>
+<body>
+    <div class='container'><h1>URL generator</h1>
+        <form action="GET">
+            <h3>Klantnaam:</h3>
+            <input id='myText' type="text"><br>
+            <h3>Taalvoorkeur:</h3>
+            <input type='radio' name='lang' id='nl' value='nl'><label for='nl'>Nederlands</label><br>
+            <input type='radio' name='lang' id='en' value='en'><label for="en">Engels</label>
+            
+        </form>
+        <button onclick='generateURL()'>Genereer URL</button>
+        <h3>URL: </h3>
+        <div id='url'></div>
+    </div>
+
+        <script>
+            function generateURL(){
+                var client_1 = document.getElementById("myText").value;
+                var client = client_1.split(' ').join('+');
+                var lang = document.querySelector('input[name="lang"]:checked').value;
+                var url = 'https://anymigo.tv/creativebrief/?client=' + client + '&lang=' + lang;
+                document.getElementById("url").innerHTML = url;
+            }
+        </script>
+</body>
+</html>

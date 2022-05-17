@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+p,
+a,
+button {
+  font-family: "Barlow", sans-serif;
+  font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "DM Serif Display", serif;
+  font-weight: 400;
+}
+
+button,
+button:focus {
+  border: none;
+  outline: none;
+  background: none;
+  cursor: pointer;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #fffcf1;
+}
+
+.fg {
+  position: relative;
+  z-index: 50;
+}
+
+/*# sourceMappingURL=style.css.map */

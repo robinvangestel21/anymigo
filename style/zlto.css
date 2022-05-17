@@ -1,0 +1,44 @@
+:root {
+  --zlto-blue: #0087a8;
+  --zlto-light-blue: #0087a81a;
+  --zlto-green: #8fb63e;
+}
+
+/*---------------------------------------------------------------------*/
+/* HEADER ZLTO */
+
+.header-projects-zlto #header-bg-desktop path,
+.header-projects-zlto #header-bg-mobile path {
+  fill: var(--zlto-blue) !important;
+}
+
+.header-projects-zlto .mobile {
+  display: none;
+}
+
+.header-projects-zlto h1 {
+  color: var(--color-white);
+  max-width: 1050px;
+}
+
+.zlto .block_1_divider {
+  color: var(--color-black);
+}
+
+.project_block_2_zlto {
+  color: var(--color-white);
+}
+.project_block_2_zlto .column_block_left_column {
+  background-color: var(--zlto-blue);
+}
+.project_block_2_zlto .column_block_right_column {
+  background-color: var(--zlto-light-blue);
+}
+
+.project_block_3_zlto {
+  color: var(--color-black);
+}
+
+.project_block_4_zlto {
+  background-color: var(--zlto-green);
+}

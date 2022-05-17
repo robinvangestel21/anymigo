@@ -1,0 +1,418 @@
+.background-nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  background-color: #fffcf1;
+  width: 100%;
+  padding: 36px 7.5px 36px 7.5px;
+}
+
+.background-nav nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+}
+
+.background-nav a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-family: "DM Serif Display", serif;
+  text-decoration: none;
+  color: #6734b7;
+  font-size: 1.5rem;
+  margin: 0 0 0 0;
+}
+
+.background-nav a .circle,
+.background-nav a .active-circle {
+  width: 3.75px;
+  height: 3.75px;
+  border-radius: 50%;
+  margin: 0 0 0 3.75px;
+  -webkit-transform: translateY(2px);
+  transform: translateY(2px);
+}
+
+.background-nav a .circle {
+  background-color: transparent;
+}
+
+.background-nav a .active-circle {
+  background-color: #e9538b;
+}
+
+.background-nav a:hover {
+  color: #e9538b;
+}
+
+.background-nav a.active {
+  color: #e9538b;
+  margin: 0 0 0 0;
+}
+
+.header {
+  width: 100%;
+  height: 808.5px;
+}
+
+#header-bg-desktop {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -10;
+  height: 808.5px;
+  width: 100%;
+}
+
+#header-bg-desktop path {
+  fill: url(#gradient-desktop);
+}
+
+#header-bg-mobile {
+  display: none;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -10;
+  height: 770.25px;
+  width: 100%;
+}
+
+#header-bg-mobile path {
+  fill: url(#gradient-mobile);
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 1230px;
+  margin: 0 auto 0 auto;
+  padding: 49.5px 0 0 0;
+}
+
+#anymigo-logo {
+  width: 188px;
+}
+
+#login-btn {
+  width: 90px;
+  height: 37.5px;
+  padding: 0 0 2.25px 0;
+  font-family: "Barlow", sans-serif;
+  font-size: 1.125rem;
+  background-color: #ffcd55;
+  color: #6734b7;
+  font-weight: 500;
+  border-radius: 18.75px;
+  margin: 15px 0 0 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-transition: background-color 200ms ease, color 200ms ease;
+  transition: background-color 200ms ease, color 200ms ease;
+}
+
+#login-btn svg {
+  width: 13.5px;
+  margin: 0 0 0 10px;
+  -webkit-transform: translateY(1px);
+  transform: translateY(1px);
+}
+
+#login-btn:hover {
+  background-color: #e9538b;
+  color: #ffffff;
+}
+
+.arrow-login-1 {
+  fill: #6734b7;
+  -webkit-transition: fill 200ms ease;
+  transition: fill 200ms ease;
+}
+
+#login-btn:hover .arrow-login-1 {
+  fill: #ffffff;
+}
+
+.header-nav-desktop {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.header-nav-desktop a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-family: "DM Serif Display", serif;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 1.125rem;
+  margin: 0 22.5px 0 0;
+  -webkit-transition: color 200ms ease;
+  transition: color 200ms ease;
+}
+
+.header-nav-desktop a .circle,
+.header-nav-desktop a .circle-active {
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+}
+
+.header-nav-desktop a:hover {
+  color: #ffcd55;
+}
+
+.header-nav-desktop .circle {
+  background-color: transparent;
+}
+
+.header-nav-desktop .circle-active {
+  background-color: #ffcd55;
+}
+
+.header-nav-desktop #login-btn {
+  margin: 0;
+  -webkit-transform: scale(0.85);
+  transform: scale(0.85);
+}
+
+.header-nav-desktop a.active {
+  color: #ffcd55;
+}
+
+.header-nav-mobile {
+  display: none;
+}
+
+.hamburgerButton {
+  width: 20px;
+}
+
+.line {
+  transition: opacity 200ms ease, transform 500ms ease;
+}
+
+.topLine {
+  transform-origin: top right;
+}
+.topLineActive {
+  transform: rotate(-45deg) translate(-17.5%, 0);
+  transform-origin: top right;
+}
+.middleLine {
+  opacity: 0;
+}
+.bottomLineActive {
+  transform: rotate(45deg) translate(-17.5%, 0);
+  transform-origin: bottom right;
+}
+.bottomLine {
+  transform-origin: bottom right;
+}
+#hamburger-btn {
+  width: 23px;
+  height: 15.5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+}
+
+#hamburger-btn .hb1,
+#hamburger-btn .hb2 {
+  height: 1.5px;
+  border-radius: 0.75px;
+  background-color: #ffcd55;
+}
+
+#hamburger-btn .hb1 {
+  width: 100%;
+}
+
+#hamburger-btn .hb2 {
+  width: 80%;
+}
+
+.header-main {
+  width: 85%;
+  margin: 26.25px auto 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header-arrow {
+  position: absolute;
+  top: 750px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  width: 20px;
+  height: 20px;
+}
+
+.header-arrow svg {
+  width: 20px;
+}
+
+.anymigo-logo-1 {
+  fill: #fff;
+}
+.anymigo-logo-2 {
+  fill: #e9538b;
+}
+.anymigo-logo-3 {
+  fill: #ffcd55;
+}
+.arrow-down-1 {
+  fill: #ffcd55;
+}
+
+.lang-container {
+  display: flex;
+  flex-direction: row;
+  color: white;
+  align-items: center;
+  margin-left: 20px;
+}
+.lang-container .separator {
+  height: 15px;
+  width: 1px;
+  background-color: white;
+}
+.lang-button {
+  background: none;
+  border: none;
+  color: rgba(255, 255, 255, 0.5);
+  margin: 0 5px;
+  cursor: pointer;
+  transition: 150ms ease color;
+}
+.lang-button:hover {
+  color: white;
+}
+.lang-container .active {
+  color: white;
+}
+
+@media only screen and (max-width: 1440px) {
+  header {
+    width: 85%;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  .header-nav-mobile {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .header-nav-desktop {
+    display: none;
+  }
+}
+@media only screen and (max-width: 920px) {
+  .header-nav-desktop a {
+    margin: 0 15px 0 0;
+  }
+  .lang-container {
+    margin-left: 5px;
+  }
+}
+@media only screen and (max-width: 742.5px) {
+  .header-nav-mobile {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .header-nav-desktop {
+    display: none;
+  }
+  #header-bg-mobile {
+    display: block;
+  }
+  #header-bg-desktop {
+    display: none;
+  }
+  .header {
+    height: 393.75px;
+  }
+  .header-arrow {
+    top: 356.25px;
+  }
+  .header-main {
+    margin: 0 0 0 0;
+    padding: 0 36px 0 36px;
+    width: 100%;
+  }
+  header {
+    width: 100%;
+    padding: 36px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .header {
+    height: 1027px;
+  }
+}

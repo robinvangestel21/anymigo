@@ -1,0 +1,112 @@
+:root {
+  --vanwieringen-brown: #202020;
+  --vanwieringen-orange: #f7821e;
+}
+
+.header-projects-vanwieringen #header-bg-desktop path {
+  fill: url(#gradient-desktop);
+}
+
+.header-projects-vanwieringen #header-bg-mobile path {
+  fill: url(#gradient-mobile);
+}
+
+.header-projects-vanwieringen .mobile {
+  display: none;
+}
+
+.header-projects-vanwieringen .header-main h1 {
+  max-width: 750px;
+}
+
+.project_block_2_vanwieringen {
+  background-color: var(--vanwieringen-brown);
+  color: var(--color-white);
+}
+
+.project_block_3_vanwieringen p.row_block_title {
+  color: var(--vanwieringen-orange);
+  font-weight: 500;
+  transform: translateY(-10px);
+  font-size: 1rem;
+  line-height: 170%;
+}
+.project_block_3_vanwieringen h1.row_block_title {
+  display: inline;
+  font-size: 5.15rem;
+  line-height: 100%;
+  max-width: 327.75px;
+}
+
+.project_block_4_vanwieringen {
+  background-color: #e7e7e7;
+  overflow-x: hidden;
+}
+.project_block_4_vanwieringen .center_block_image {
+  width: 1000px;
+}
+.project_block_5_vanwieringen {
+  background-color: var(--color-white);
+  overflow-x: hidden;
+  padding-bottom: 0;
+  margin-bottom: -100px;
+}
+.project_block_5_vanwieringen .mobile-img {
+  display: none;
+}
+.project_block_5_vanwieringen .center_block_image {
+  transform: translateY(-120px);
+  z-index: -10;
+}
+.project_block_5_vanwieringen .center_block_image {
+  width: 800px;
+}
+
+.project_block_6_vanwieringen .column_block_left_column {
+  background-color: var(--vanwieringen-brown);
+  color: var(--color-white);
+}
+.project_block_6_vanwieringen .column_block_right_column_background_image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.project_block_6_vanwieringen #animation3 {
+  z-index: 10;
+  position: absolute;
+  height: 50%;
+}
+
+@media only screen and (max-width: 900px) {
+  /*---------------------------------------------------------------------*/
+  /* HEADER VAN WIERINGEN */
+
+  .header-projects-vanwieringen .desktop {
+    display: none;
+  }
+  .header-projects-vanwieringen .mobile {
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 742.5px) {
+  .project_block_2_vanwieringen .column_block_right_column {
+    text-align: center;
+  }
+
+  .project_block_4_vanwieringen {
+    overflow-x: hidden;
+  }
+  .project_block_5_vanwieringen .center_block_image {
+    transform: translateY(-300px);
+  }
+  .project_block_5_vanwieringen {
+    margin-bottom: -300px;
+  }
+  .project_block_5_vanwieringen .desktop-img {
+    display: none;
+  }
+  .project_block_5_vanwieringen .mobile-img {
+    display: block;
+  }
+}

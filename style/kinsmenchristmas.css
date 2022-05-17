@@ -1,0 +1,270 @@
+:root {
+  --kinsmen-dark-gray: #13323e;
+  --kinsmen-pink: #eebece;
+}
+
+/*---------------------------------------------------------------------*/
+/* HEADER KINSMEN */
+
+.header-projects-kinsmenchristmas #header-bg-desktop path,
+.header-projects-kinsmenchristmas #header-bg-mobile path {
+  fill: var(--kinsmen-dark-gray) !important;
+}
+
+.header-projects-kinsmenchristmas .header-main h1 {
+  max-width: 787.5px;
+  color: var(--kinsmen-pink);
+}
+
+.header-projects-kinsmenchristmas .header-main h3,
+.header-projects-kinsmenchristmas .header-main h4 {
+  color: var(--color-white);
+}
+
+/*---------------------------------------------------------------------*/
+/* KINSMEN BLOCK 1 */
+
+.kinsmenchristmas .block_1_divider {
+  color: var(--kinsmen-dark-gray);
+}
+
+/*---------------------------------------------------------------------*/
+/* KINSMEN BLOCK 2 */
+
+.project_block_2_kinsmenchristmas {
+  background-color: var(--kinsmen-pink);
+}
+.project_block_2_kinsmenchristmas video {
+  display: flex;
+}
+.project_block_2_kinsmenchristmas .mobile-image {
+  display: none;
+}
+
+/*---------------------------------------------------------------------*/
+/* KINSMEN BLOCK 3 */
+
+.project_block_3_kinsmenchristmas {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-align: center;
+  padding: 112.5px 0 112.5px 0;
+}
+
+.project_block_3_kinsmenchristmas .mobile-image {
+  display: none;
+}
+
+.project_block_3_kinsmenchristmas img {
+  height: 612px;
+}
+
+.project_block_3_kinsmenchristmas h1 {
+  font-size: 2.8125rem;
+  line-height: 100%;
+  max-width: 560px;
+  margin: 75px 0 15px 0;
+}
+
+.project_block_3_kinsmenchristmas p {
+  font-size: 1.125rem;
+  max-width: 620px;
+  line-height: 170%;
+  font-weight: 300;
+}
+
+/*---------------------------------------------------------------------*/
+/* KINSMEN BLOCK 4 */
+
+.project_block_4_kinsmenchristmas {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-align: center;
+  padding: 144.75px 0 144.75px 0;
+  background-color: var(--kinsmen-dark-gray);
+  color: var(--color-white);
+}
+
+.project_block_4_kinsmenchristmas .mobile-image {
+  display: none;
+}
+
+.project_block_4_kinsmenchristmas video,
+.project_block_4_kinsmenchristmas img {
+  height: 242.25px;
+}
+
+.project_block_4_kinsmenchristmas h1 {
+  font-size: 2.8125rem;
+  line-height: 100%;
+  max-width: 550px;
+}
+
+.project_block_4_kinsmenchristmas p {
+  font-size: 1.125rem;
+  max-width: 620px;
+  line-height: 170%;
+  font-weight: 300;
+  margin: 15px 0 75px 0;
+}
+
+/*---------------------------------------------------------------------*/
+/* KINSMEN BLOCK 5 */
+
+.project_block_5_kinsmenchristmas {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-align: center;
+  padding: 112.5px 0 112.5px 0;
+}
+
+.project_block_5_kinsmenchristmas .mobile-image {
+  display: none;
+}
+
+.project_block_5_kinsmenchristmas video,
+.project_block_5_kinsmenchristmas img {
+  height: 521px;
+}
+
+@media only screen and (max-width: 1300px) {
+  /*---------------------------------------------------------------------*/
+  /* KINSMEN BLOCK 3 */
+
+  .project_block_3_kinsmenchristmas img {
+    width: 90vw;
+    height: auto;
+  }
+
+  /*---------------------------------------------------------------------*/
+  /* KINSMEN BLOCK 4 */
+
+  .project_block_4_kinsmenchristmas video,
+  .project_block_4_kinsmenchristmas img {
+    width: 90vw;
+    height: auto;
+  }
+
+  /*---------------------------------------------------------------------*/
+  /* KINSMEN BLOCK 5 */
+
+  .project_block_5_kinsmenchristmas video,
+  .project_block_5_kinsmenchristmas img {
+    width: 90vw;
+    height: auto;
+  }
+}
+
+@media only screen and (max-width: 742.5px) {
+  /*---------------------------------------------------------------------*/
+  /* KINSMEN BLOCK 2 */
+
+  .project_block_2_kinsmenchristmas video {
+    display: none;
+  }
+  .project_block_2_kinsmenchristmas .mobile-image {
+    display: flex;
+  }
+
+  /*---------------------------------------------------------------------*/
+  /* KINSMEN BLOCK 3 */
+
+  .project_block_3_kinsmenchristmas {
+    padding: 50px 36px 100px 36px;
+  }
+  .project_block_3_kinsmenchristmas h1 {
+    font-size: 2.5rem;
+    margin: 50px 0 20px 0;
+  }
+  .project_block_3_kinsmenchristmas p {
+    font-size: 1rem;
+  }
+  .project_block_3_kinsmenchristmas video,
+  .project_block_3_kinsmenchristmas img {
+    display: none;
+  }
+  .project_block_3_kinsmenchristmas .mobile-image {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 70%;
+    height: auto;
+  }
+
+  /*---------------------------------------------------------------------*/
+  /* KINSMEN BLOCK 4 */
+
+  .project_block_4_kinsmenchristmas {
+    padding: 50px 0 50px 0;
+  }
+  .project_block_4_kinsmenchristmas h1 {
+    font-size: 2.5rem;
+    padding: 0 36px 0 36px;
+  }
+  .project_block_4_kinsmenchristmas p {
+    font-size: 1rem;
+    padding: 0 36px 0 36px;
+    margin: 20px 0 50px 0;
+  }
+  .project_block_4_kinsmenchristmas video {
+    display: none;
+  }
+  .project_block_4_kinsmenchristmas .mobile-image {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    height: auto;
+  }
+
+  /*---------------------------------------------------------------------*/
+  /* KINSMEN BLOCK 5 */
+
+  .project_block_5_kinsmenchristmas {
+    padding: 50px 36px 50px 36px;
+  }
+  .project_block_5_kinsmenchristmas video {
+    display: none;
+  }
+  .project_block_5_kinsmenchristmas .mobile-image {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  /*---------------------------------------------------------------------*/
+  /* KINSMEN BLOCK 3 */
+
+  .project_block_3_kinsmenchristmas .mobile-image {
+    width: 100%;
+    height: auto;
+  }
+}

@@ -1,0 +1,139 @@
+:root {
+  --adyen-green: #0abf53;
+  --adyen-black: #00112c;
+}
+
+/*---------------------------------------------------------------------*/
+/* HEADER ADYEN */
+
+.header-projects-adyen #header-bg-desktop path,
+.header-projects-adyen #header-bg-mobile path {
+  fill: #0abf53 !important;
+}
+
+.header-projects-adyen h1 {
+  max-width: 1050px;
+}
+
+/*---------------------------------------------------------------------*/
+/* ADYEN BLOCK 1 */
+
+.adyen .block_1_divider {
+  color: #00112c;
+}
+
+/*---------------------------------------------------------------------*/
+/* ADYEN BLOCK 2 & ADYEN BLOCK 4 */
+
+.project_block_2_adyen {
+  color: var(--color-black);
+}
+.project_block_2_adyen .column_block_left_column {
+  background-color: var(--adyen-green);
+}
+.project_block_2_adyen .column_block_right_column {
+  background-color: var(--color-light-gray);
+}
+.project_block_4_adyen {
+  color: var(--color-black);
+}
+.project_block_4_adyen .column_block_left_column,
+.project_block_4_adyen .column_block_right_column {
+  background-color: var(--color-light-gray);
+}
+/*---------------------------------------------------------------------*/
+/* ADYEN BLOCK 3 */
+
+.project_block_3_adyen {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-align: center;
+  padding: 144.75px 0 0 0;
+  background-image: url("/static/projecten/adyen/adyen-2-bg.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  color: #ffffff;
+}
+
+.project_block_3_adyen .mobile-image {
+  display: none;
+}
+
+.project_block_3_adyen img {
+  height: 470px;
+}
+
+.project_block_3_adyen video,
+.project_block_3_adyen img {
+  height: 470px;
+}
+
+.project_block_3_adyen h1 {
+  font-size: 2.8125rem;
+  line-height: 100%;
+  max-width: 410px;
+}
+
+.project_block_3_adyen p {
+  font-size: 1.125rem;
+  max-width: 501px;
+  line-height: 170%;
+  font-weight: 300;
+  margin: 15px 0 75px 0;
+}
+
+/*---------------------------------------------------------------------*/
+
+@media only screen and (max-width: 1065px) {
+  /*---------------------------------------------------------------------*/
+  /* ADYEN BLOCK 3 */
+
+  .project_block_3_adyen video,
+  .project_block_3_adyen img {
+    width: 100%;
+    height: auto;
+  }
+
+  /*---------------------------------------------------------------------*/
+}
+
+@media only screen and (max-width: 742.5px) {
+  /*---------------------------------------------------------------------*/
+  /* ADYEN BLOCK 3 */
+
+  .project_block_3_adyen {
+    overflow: hidden;
+    padding: 100px 0 0 0;
+  }
+  .project_block_3_adyen h1 {
+    font-size: 2.5rem;
+    margin: 0 36px 0 36px;
+  }
+  .project_block_3_adyen p {
+    font-size: 1rem;
+    margin: 20px 36px 90px 36px;
+  }
+  .project_block_3_adyen video {
+    display: none;
+  }
+  .project_block_3_adyen .mobile-image {
+    width: 140%;
+    height: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 0 0 40px 0;
+  }
+
+  /*---------------------------------------------------------------------*/
+}
